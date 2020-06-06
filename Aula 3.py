@@ -26,10 +26,10 @@ def trivia():
 def fazerPergunta(pergunta, resposta):
     print(pergunta)
     palpite = input()
-    pontuação == 0
+    score == 0
     if palpite == resposta:
         print ("Parabéns! Você é um(a) Nerd Raiz.")
-        pontuação += 1
+        score += 1
     else:
         print("Errado. Você é um nerd Nutella.")
 
