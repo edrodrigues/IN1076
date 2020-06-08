@@ -17,16 +17,16 @@ def trivia():
     RespostaPergunta5 = "C"
 
 # Funções Fazer Perguntas
-    fazerPergunta1(Pergunta1, RespostaPergunta1)
-    fazerPergunta2(Pergunta2, RespostaPergunta2)
-    fazerPergunta3(Pergunta3, RespostaPergunta3)
-    fazerPergunta4(Pergunta4, RespostaPergunta4)
-    fazerPergunta5(Pergunta5, RespostaPergunta5)
+    fazerPergunta(Pergunta1, RespostaPergunta1)
+    fazerPergunta(Pergunta2, RespostaPergunta2)
+    fazerPergunta(Pergunta3, RespostaPergunta3)
+    fazerPergunta(Pergunta4, RespostaPergunta4)
+    fazerPergunta(Pergunta5, RespostaPergunta5)
 
 def fazerPergunta(pergunta, resposta):
     print(pergunta)
     palpite = input()
-    score == 0
+    score = 0
     if palpite == resposta:
         print ("Parabéns! Você é um(a) Nerd Raiz.")
         score += 1
